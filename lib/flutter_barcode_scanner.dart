@@ -58,13 +58,13 @@ class FlutterBarcodeScanner {
     }
 
     // Pass params to the plugin
-    Map params = <String, dynamic>{
-      'lineColor': lineColor,
-      'cancelButtonText': cancelButtonText,
-      'isShowFlashIcon': isShowFlashIcon,
-      'isContinuousScan': true,
-      'scanMode': scanMode.index
-    };
+    // Map params = <String, dynamic>{
+    //   'lineColor': lineColor,
+    //   'cancelButtonText': cancelButtonText,
+    //   'isShowFlashIcon': isShowFlashIcon,
+    //   'isContinuousScan': true,
+    //   'scanMode': scanMode.index
+    // };
 
     // Invoke method to open camera, and then create an event channel which will
     // return a stream
